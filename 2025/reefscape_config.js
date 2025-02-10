@@ -145,10 +145,7 @@ var config_data = `
     }
   ],
   "endgame": [
-    { "name": "Barge Timer",
-      "code": "ebt",
-      "type": "timer"
-    },
+    
     { "name": "Final Robot Status",
       "code": "efs",
       "type":"radio",
@@ -167,13 +164,7 @@ var config_data = `
       "code": "cop",
       "type": "bool"
     },
-    { "name": "Algae Left in Reef",
-      "code": "alr",
-      "type": "number",
-      "min": 0,
-      "max": 9,
-      "defaultValue": 0
-    },
+    
     { "name": "Driver Skill",
       "code": "ds",
       "type": "radio",
@@ -217,19 +208,7 @@ var config_data = `
       "code": "tip",
       "type": "bool"
     },
-    { "name": "Dropped Coral (>2)",
-      "code": "dc",
-      "type": "bool"
-    },
-    { "name": "Dropped Algae (>2)",
-      "code": "da",
-      "type": "bool"
-    },
-    { "name": "Make good<br>alliance partner?",
-      "tooltip": "Would you want this robot on your alliance in eliminations?",
-      "code": "all",
-      "type": "bool"
-    },
+
     { "name": "Comments",
       "code": "co",
       "type": "text",
