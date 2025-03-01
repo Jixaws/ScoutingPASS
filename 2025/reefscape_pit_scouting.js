@@ -48,7 +48,7 @@ var config_data = `
         "o": "Other ratio (put in comments)<br>",
         "x": "Not Swerve"
       },
-      "defaultValue":"x"
+      "defaultValue": "x"
     },
     { "name": "Drivetrain Motor",
       "code": "mot",
@@ -59,7 +59,7 @@ var config_data = `
         "c": "CIM<br>",
         "x": "Other<br>"
       },
-      "defaultValue":"x"
+      "defaultValue": "x"
     },
     { "name": "# of Batteries",
       "code": "nob",
@@ -80,16 +80,17 @@ var config_data = `
         "4": "4",
         "3": "3",
         "2": "2",
-        "1": "1"
-        "ALL":"ALL"
-      },
+        "1": "1",
+        "ALL": "ALL"
+      }
+    },
     { "name": "Autos",
       "code": "aut",
       "type": "text",
       "size": 20,
       "maxSize": 250
     },
-  { "name": "Endgame Position",
+    { "name": "Endgame Position",
       "code": "EP",
       "type": "radio",
       "choices": {
@@ -97,7 +98,8 @@ var config_data = `
         "s": "Shallow",
         "d": "Deep",
         "x": "none"
-      },
+      }
+    },
     { "name": "Comments",
       "code": "co",
       "type": "text",
@@ -105,12 +107,8 @@ var config_data = `
       "maxSize": 250
     }
   ],
-  "auton": [
-  ],
-  "teleop": [
-  ],
-  "endgame": [
-  ],
-  "postmatch": [
-  ]
+  "auton": [],
+  "teleop": [],
+  "endgame": [],
+  "postmatch": []
 }`;
