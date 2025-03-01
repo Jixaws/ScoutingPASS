@@ -73,13 +73,31 @@ var config_data = `
       "code": "fpa",
       "type": "bool"
     },
+    { "name": "Reef Score Position",
+      "code": "rsp",
+      "type": "radio",
+      "choices": {
+        "4": "4",
+        "3": "3",
+        "2": "2",
+        "1": "1"
+        "ALL":"ALL"
+      },
     { "name": "Autos",
       "code": "aut",
       "type": "text",
       "size": 20,
       "maxSize": 250
     },
-  
+  { "name": "Endgame Position",
+      "code": "EP",
+      "type": "radio",
+      "choices": {
+        "p": "Park",
+        "s": "Shallow",
+        "d": "Deep",
+        "x": "none"
+      },
     { "name": "Comments",
       "code": "co",
       "type": "text",
